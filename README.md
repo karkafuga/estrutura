@@ -25,39 +25,26 @@ This C# console application provides an interactive menu for practicing data str
    ```bash
    git clone https://github.com/your-username/menu-estruturas-dados.git
 
-2. Open in Visual Studio
-   Launch Visual Studio
-   Go to File > Open > Project/Solution...
-   Select MenuEstruturasDados.sln
+2. **Open in Visual Studio** 
+   1. Launch Visual Studio
+   2. Go to File > Open > Project/Solution...
+   3. Select MenuEstruturasDados.sln
 
-3. Set the Startup Project
-   In Solution Explorer, right-click the MenuED project
-    Choose Set as Startup Project
+3. **Set the Startup Project**
+   1. In Solution Explorer, right-click the MenuED project
+   2. Choose Set as Startup Project
 
-4. Restore & Build
-    If prompted, restore NuGet packages
-    Go to Build > Rebuild Solution
-    Confirm there are no build errors
+4. **Restore & Build**
+    1. If prompted, restore NuGet packages
+    2. Go to Build > Rebuild Solution
+    3. Confirm there are no build errors
    
-5. Run the application
-    Press F5 or click Start Debugging
-    A console window will open showing the MAIN MENU
+5. **Run the application**
+    1. Press F5 or click Start Debugging
+    2. A console window will open showing the MAIN MENU
 
-6. Use the Menu
-    Enter the number for the desired data structure
-    Choose one of the exercises listed
-    Press 0 to return or exit
+6. **Use the Menu**
+    1. Enter the number for the desired data structure
+    2. Choose one of the exercises listed
+    3. Press 0 to return or exit
 
-## Project Structure
-
-menu-estruturas-dados/
-├── MenuEstruturasDados.sln    # Visual Studio solution file
-└── MenuED/                    # C# console project
-    ├── Program.cs             # Main menu controller
-    └── Structures/            # Data structure modules
-        ├── VectorMenu.cs      # Vector exercises
-        ├── MatrixMenu.cs      # Matrix exercises
-        ├── ListMenu.cs        # List operations
-        ├── QueueMenu.cs       # Queue operations
-        ├── StackMenu.cs       # Stack operations
-        └── SearchMenu.cs      # Search algorithms
